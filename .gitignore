@@ -1,0 +1,15 @@
+node_modules/*
+bower_components/*
+/web
+/themes
+
+/src/js/mbe/mcs_config.js
+/hybrid/platforms
+/hybrid/www/*
+
+!hybrid/plugins
+hybrid/plugins/*
+!hybrid/plugins/fetch.json
+
+.DS_Store
+Thumbs.db
