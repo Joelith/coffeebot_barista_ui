@@ -10,7 +10,7 @@ define(['knockout', 'ojs/ojcore', 'ojs/ojknockout', 'mbe/mbe', 'moment', 'ojs/oj
       model: model,
       sync: mbe.mcsSync,
       comparator : 'createdOn',
-      sortDirection : 1,
+      sortDirection : -1,
       parse: function (result) {
         return result.registrations;
       }
